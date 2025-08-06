@@ -3,28 +3,20 @@ import { readFile } from 'fs/promises'
 import { join } from 'path'
 
 export default defineEventHandler(async (event) => {
-  const authHeader = getHeader(event, 'authorization')
+  const authHeader = getHeader(event, 'Authorization')
 
-  if (authHeader !== 'abn12njk873vfv') {
+  if (authHeader !== 'Bearer abn12njk873vfv') {
     return {
       success: false,
       message: 'Unauthorized',
     }
   }
 
-  const filePath = join(process.cwd(), 'server/data/products.json')
+  const filePath = join(process.cwd(), 'server/data/homepage.json')
   const fileContent = await readFile(filePath, 'utf-8')
   const data = JSON.parse(fileContent)
 
-  console.log(data)
-
-  // return [
-  //   { id: 1, name: 'Cool Shirt', price: 29.99 },
-  //   { id: 2, name: 'Trendy Jeans', price: 59.99 },
-  // ]
-
   return {
-    success: false,
-    data: 'Unauthorized',
+    ...data,
   }
 })
