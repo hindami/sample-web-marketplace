@@ -3,7 +3,7 @@
 // @unocss-include
 
 export default {
-  title: 'NuCommerce',
+  title: 'SampleMall',
   description:
     'Vue Designer Nuxt Tailwind CSS / Nuxt UI - Quick start template',
   logo: 'i-fluent-emoji:shopping-bags',
@@ -21,26 +21,7 @@ export default {
   titleSeparator: '|', // default
 
   navs: {
-    primary: [
-      { title: 'Home', to: '/', icon: 'i-mdi-home' },
-      { title: 'Women', to: '/women', icon: 'i-mdi-home' },
-      { title: 'Men', to: '/men', icon: 'i-mdi-home' },
-      {
-        title: 'Jewellery',
-        to: '/jewellery',
-        icon: 'i-mdi-home',
-      },
-      {
-        title: 'Electronics',
-        to: '/electronics',
-        icon: 'i-mdi-home',
-      },
-      {
-        title: 'About Us',
-        to: '/quick-start',
-        icon: 'i-mdi-home',
-      },
-    ],
+    primary: [],
     secondary: [
       {
         title: 'Track Order',
