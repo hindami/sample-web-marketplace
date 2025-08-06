@@ -3,37 +3,25 @@
 </script>
 <template>
   <nav class="container mx-auto px-4">
-    <div class="flex h-full items-center justify-between navbar-grid py-4">
-      <div style="grid-area: logo" class="flex justify-center">
-        <TheLogo />
-      </div>
-      <div
+    <div class="flex h-full items-center justify-start py-6">
+      <!-- <div
         data-pg-name="Hamburger"
         style="grid-area: hamburger"
         class="sm:hidden"
       >
         <NavHamburger @click="isMobileMenuOpen = true" />
+      </div> -->
+
+      <div style="grid-area: logo" class="flex justify-center">
+        <TheLogo />
       </div>
+
       <div
         data-pg-name="NavBarPrimary"
         style="grid-area: primary-nav"
         class="hidden sm:flex"
       >
         <NavPrimary class="sm:w-full" />
-      </div>
-      <div data-pg-name="Searchbox" style="grid-area: search">
-        <UFormGroup hint="Optional">
-          <UInput
-            placeholder="Search..."
-            size="md"
-            trailing-icon="i-material-symbols-search-rounded"
-            class="w-full"
-          />
-        </UFormGroup>
-      </div>
-      <div data-pg-name="Profile" class="flex space-x-1">
-        <ProfileActions class="!hidden sm:!flex" />
-        <NavSecondary />
       </div>
     </div>
     <USlideover
