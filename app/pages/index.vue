@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<!-- <script setup lang="ts">
   import { heroImageUrl } from '@/utils/hero'
 
   definePageMeta({
@@ -32,11 +32,17 @@
 </script>
 <template>
   <div>
-    <HeroSection />
+    <HeroSectionII />
     <UContainer class="pt-8">
       <LaunchSale class="mt-8" />
       <HotDeals class="mt-8" />
     </UContainer>
   </div>
 </template>
-<style scoped></style>
+<style scoped></style> -->
+<script setup lang="ts">
+  import HomePage from '../features/homepage/index.vue'
+</script>
+<template>
+  <HomePage />
+</template>
