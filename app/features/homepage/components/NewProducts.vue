@@ -1,5 +1,5 @@
 <script setup lang="ts">
-  import ProductCard from './ProductCard.vue'
+  import ItemCard from './ItemCard.vue'
   import type { Product } from '../types'
 
   const props = defineProps<{
@@ -17,9 +17,9 @@
       </div>
       <section
         data-pg-name="Products"
-        class="flex flex-wrap justify-center mt-8"
+        class="flex flex-wrap justify-start mt-8"
       >
-        <ProductCard
+        <ItemCard
           v-for="(item, index) in props.products"
           :key="index"
           v-bind="item"
