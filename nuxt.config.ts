@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     '@nuxt/scripts',
     '@nuxt/ui',
     '@nuxt/eslint',
-    '@nuxt/content'
-  ]
-})
+    '@nuxt/content',
+    '@nuxtjs/tailwindcss',
+  ],
+});
