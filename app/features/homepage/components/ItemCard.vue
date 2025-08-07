@@ -3,7 +3,7 @@
   // import { ref } from 'vue'
   const { title, image, url } = defineProps<Product>()
 
-  const defaultImage = 'https://placehold.co/190x190/2D3436/FFF'
+  const defaultImage = `https://placehold.co/190x190/2D3436/FFF?text=${title}`
   // const imgSrc = ref(image || defaultImage)
   // const hasErrored = ref(false)
 
