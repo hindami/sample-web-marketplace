@@ -1,18 +1,21 @@
 <script setup lang="ts">
   import { Swiper, SwiperSlide } from 'swiper/vue'
   import type { Promotion } from '../types'
+  import { getRandomHexColor } from '~/utils/colors'
 
-  // Import Swiper styles
   import 'swiper/css'
   import 'swiper/css/pagination'
   import 'swiper/css/navigation'
 
-  // Import modules
   import { Autoplay, Navigation } from 'swiper/modules'
 
   const props = defineProps<{
     promotions: Promotion[]
   }>()
+
+  const defaultImages = props.promotions.map(() => {
+    return `https://placehold.co/190x190/${getRandomHexColor()}/FFF?text=Promotion`
+  })
 </script>
 
 <script lang="ts">
@@ -32,10 +35,7 @@
   >
     <swiper-slide v-for="(banner, index) in props.promotions" :key="index">
       <NuxtLink :to="banner.url" class="banner-slider-item__container">
-        <img
-          src="https://placehold.co/600x400/000000/FFF"
-          :alt="'bnr-' + index"
-        />
+        <img :src="defaultImages[index]" :alt="'bnr-' + index" />
       </NuxtLink>
     </swiper-slide>
   </swiper>
