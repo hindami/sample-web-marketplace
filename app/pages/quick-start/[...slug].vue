@@ -46,15 +46,13 @@
     <section class="container mx-auto">
       <div class="px-10 w-full">
         <div class="flex flex-col rounded-lg">
-          <article
-            class="dark:xl:divide-gray-700 xl:divide-gray-200 xl:divide-y"
-          >
+          <article class="xl:divide-gray-200 xl:divide-y">
             <div
-              class="dark:divide-gray-700 divide-gray-200 divide-y pb-16 xl:divide-y-0 xl:gap-x-10 xl:grid xl:grid-cols-4 xl:pb-20 xl:sticky"
+              class="divide-gray-200 divide-y pb-16 xl:divide-y-0 xl:gap-x-10 xl:grid xl:grid-cols-4 xl:pb-20 xl:sticky"
               style="grid-template-rows: auto 1fr"
             >
               <div
-                class="dark:divide-gray-700 divide-gray-200 divide-y xl:col-span-3 xl:pb-0 xl:row-span-2"
+                class="divide-gray-200 divide-y xl:col-span-3 xl:pb-0 xl:row-span-2"
               >
                 <StaticMarkdown :path="slug" />
               </div>
