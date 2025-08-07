@@ -5,4 +5,9 @@ const secondary = pg_colors.secondary?.DEFAULT || pg_colors.primary?.[600]
 
 const safelist = []
 
-export { primary, secondary, safelist }
+function getRandomHexColor() {
+  const hex = Math.floor(Math.random() * 0xffffff).toString(16)
+  return `${hex.padStart(6, '0')}`
+}
+
+export { primary, secondary, safelist, getRandomHexColor }
