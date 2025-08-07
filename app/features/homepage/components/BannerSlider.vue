@@ -14,7 +14,7 @@
   }>()
 
   const defaultImages = props.banners.map(() => {
-    return `https://placehold.co/190x190/${getRandomHexColor()}/FFF`
+    return `https://placehold.co/190x190/${getRandomHexColor()}/FFF?text=Banner`
   })
 </script>
 
