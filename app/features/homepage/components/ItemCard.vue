@@ -1,9 +1,9 @@
 <script setup lang="ts">
   import type { Product } from '../types'
-  import { ref } from 'vue'
+  // import { ref } from 'vue'
   const { title, image, url } = defineProps<Product>()
 
-  const defaultImage = 'https://placehold.co/190x190/000000/FFF'
+  const defaultImage = 'https://placehold.co/190x190/2D3436/FFF'
   // const imgSrc = ref(image || defaultImage)
   // const hasErrored = ref(false)
 
@@ -30,7 +30,7 @@
     flex-grow: 1;
     margin: 10px;
     background-color: #ffffff !important;
-    border: 1px solid black;
+    border: 1px solid #2d3436;
     overflow: hidden;
     border-radius: 10px;
   }
@@ -52,5 +52,8 @@
   .item-card--info-container {
     height: 50px;
     padding: 5px 16px;
+    display: flex;
+    align-items: center;
+    color: #2d3436;
   }
 </style>
