@@ -12,7 +12,7 @@
       <div
         class="-tracking-wide flex font-bold items-center justify-center text-5xl"
       >
-        <span class="text-center text-primary">Popular Items</span>
+        <span class="text-center text-primary text-4xl">Popular Items</span>
         <UIcon name="i-twemoji-fire" class="ml-2" width="28px" />
       </div>
       <section
