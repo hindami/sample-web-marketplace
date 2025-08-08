@@ -218,32 +218,6 @@
         "pg.html"
       ]
     },
-
-    "components/LaunchSale.vue": {
-      "frameworks": [
-        "@nuxt/content",
-        "pg.insight.events",
-        "pg.vue.tree.painter",
-        "@nuxt/image",
-        "pg.css.grid",
-        "pg.image.overlay",
-        "@vue/devtools",
-        "pg.code-validator",
-        "pg.project.items",
-        "@nuxt/devtools",
-        "pg.asset.manager",
-        "project",
-        "app_designer",
-        "@unocss/preset-icons",
-        "vue",
-        "nuxt",
-        "@pinegrow/nuxt-module",
-        "@nuxt/ui",
-        "tw",
-        "pg.html"
-      ]
-    },
-
     "components/TheFooter.vue": {
       "frameworks": [
         "@nuxt/content",
@@ -487,7 +461,7 @@
     },
     "components/TheLogo.vue": { "open-page-views": [{ "w": 1024, "h": 0 }] },
     "app.vue": { "open-page-views": [{ "w": 1024, "h": 0 }] },
-    "components/LaunchSale.vue": { "open-page-views": [{ "w": 1024, "h": 0 }] },
+
     "components/TheFooter.vue": { "open-page-views": [{ "w": 1024, "h": 0 }] },
     "components/AboutTemplate.vue": {
       "open-page-views": [{ "w": 1024, "h": 0 }]
