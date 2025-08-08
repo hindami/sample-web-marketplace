@@ -4,14 +4,13 @@
 
 export default {
   title: 'SampleMall',
-  description:
-    'Vue Designer Nuxt Tailwind CSS / Nuxt UI - Quick start template',
+  description: 'SampleMall is e-commerce website',
   logo: 'i-fluent-emoji:shopping-bags',
   author: 'Pinegrow',
-  url: 'https://pg-nuxtui.netlify.app',
-  github: 'https://github.com/pinegrow/pg-nuxtui',
-  ogImageUrl: 'og-image.jpg', // absolute url (or) from public folder
-  generator: 'https://vuedesigner.com',
+  url: '',
+  github: '',
+  ogImageUrl: '',
+  generator: '',
   defaultLocale: 'en', // default
   identity: {
     type: 'Organization',
