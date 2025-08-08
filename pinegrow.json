@@ -25,30 +25,6 @@
         "pg.html"
       ]
     },
-    "components/DarkModeSwitch.vue": {
-      "frameworks": [
-        "@nuxt/content",
-        "pg.insight.events",
-        "@nuxt/image",
-        "pg.vue.tree.painter",
-        "@vue/devtools",
-        "@nuxt/devtools",
-        "pg.css.grid",
-        "@unocss/preset-icons",
-        "pg.image.overlay",
-        "@pinegrow/nuxt-module",
-        "project",
-        "pg.code-validator",
-        "nuxt",
-        "pg.project.items",
-        "vue",
-        "pg.asset.manager",
-        "app_designer",
-        "@nuxt/ui",
-        "tw",
-        "pg.html"
-      ]
-    },
     "layouts/default.vue": {
       "frameworks": [
         "@nuxt/content",
@@ -92,30 +68,6 @@
         "@pinegrow/nuxt-module",
         "@unocss/preset-icons",
         "@nuxt/devtools",
-        "@nuxt/ui",
-        "tw",
-        "pg.html"
-      ]
-    },
-    "pages/[category].vue": {
-      "frameworks": [
-        "@nuxt/content",
-        "pg.insight.events",
-        "pg.vue.tree.painter",
-        "@nuxt/image",
-        "pg.css.grid",
-        "pg.image.overlay",
-        "pg.code-validator",
-        "@vue/devtools",
-        "pg.project.items",
-        "pg.asset.manager",
-        "@nuxt/devtools",
-        "project",
-        "app_designer",
-        "vue",
-        "nuxt",
-        "@pinegrow/nuxt-module",
-        "@unocss/preset-icons",
         "@nuxt/ui",
         "tw",
         "pg.html"
@@ -217,30 +169,6 @@
         "pg.html"
       ]
     },
-    "components/ProductCard.vue": {
-      "frameworks": [
-        "@nuxt/content",
-        "pg.insight.events",
-        "pg.vue.tree.painter",
-        "@nuxt/image",
-        "pg.css.grid",
-        "@vue/devtools",
-        "pg.image.overlay",
-        "@nuxt/devtools",
-        "pg.code-validator",
-        "pg.project.items",
-        "@unocss/preset-icons",
-        "project",
-        "pg.asset.manager",
-        "@pinegrow/nuxt-module",
-        "app_designer",
-        "vue",
-        "nuxt",
-        "@nuxt/ui",
-        "tw",
-        "pg.html"
-      ]
-    },
     "components/TheLogo.vue": {
       "frameworks": [
         "@nuxt/content",
@@ -290,54 +218,7 @@
         "pg.html"
       ]
     },
-    "pages/store/[id].vue": {
-      "frameworks": [
-        "@nuxt/content",
-        "@nuxt/image",
-        "@vue/devtools",
-        "@nuxt/devtools",
-        "@unocss/preset-icons",
-        "@pinegrow/nuxt-module",
-        "nuxt",
-        "vue",
-        "app_designer",
-        "project",
-        "pg.insight.events",
-        "pg.vue.tree.painter",
-        "pg.css.grid",
-        "pg.image.overlay",
-        "pg.code-validator",
-        "pg.project.items",
-        "pg.asset.manager",
-        "@nuxt/ui",
-        "tw",
-        "pg.html"
-      ]
-    },
-    "components/HeroSection.vue": {
-      "frameworks": [
-        "pg.tw.lib",
-        "pg.insight.events",
-        "pg.vue.tree.painter",
-        "@nuxt/image",
-        "pg.css.grid",
-        "pg.image.overlay",
-        "pg.code-validator",
-        "pg.project.items",
-        "pg.asset.manager",
-        "@vue/devtools",
-        "project",
-        "app_designer",
-        "vue",
-        "nuxt",
-        "@pinegrow/nuxt-module",
-        "@unocss/preset-icons",
-        "@nuxt/devtools",
-        "@nuxt/ui",
-        "tw",
-        "pg.html"
-      ]
-    },
+
     "components/LaunchSale.vue": {
       "frameworks": [
         "@nuxt/content",
@@ -362,30 +243,7 @@
         "pg.html"
       ]
     },
-    "components/HotDeals.vue": {
-      "frameworks": [
-        "@nuxt/content",
-        "pg.insight.events",
-        "@nuxt/image",
-        "pg.vue.tree.painter",
-        "@vue/devtools",
-        "@nuxt/devtools",
-        "pg.css.grid",
-        "@unocss/preset-icons",
-        "pg.image.overlay",
-        "@pinegrow/nuxt-module",
-        "project",
-        "pg.code-validator",
-        "nuxt",
-        "pg.project.items",
-        "vue",
-        "pg.asset.manager",
-        "app_designer",
-        "@nuxt/ui",
-        "tw",
-        "pg.html"
-      ]
-    },
+
     "components/TheFooter.vue": {
       "frameworks": [
         "@nuxt/content",
@@ -434,30 +292,7 @@
         "pg.html"
       ]
     },
-    "pages/quick-start/[...slug].vue": {
-      "frameworks": [
-        "@nuxt/content",
-        "@nuxt/image",
-        "@vue/devtools",
-        "@nuxt/devtools",
-        "@unocss/preset-icons",
-        "@pinegrow/nuxt-module",
-        "nuxt",
-        "vue",
-        "app_designer",
-        "project",
-        "pg.insight.events",
-        "pg.vue.tree.painter",
-        "pg.css.grid",
-        "pg.image.overlay",
-        "pg.code-validator",
-        "pg.project.items",
-        "pg.asset.manager",
-        "@nuxt/ui",
-        "tw",
-        "pg.html"
-      ]
-    },
+
     "components/WalkThrough.vue": {
       "frameworks": [
         "@nuxt/content",
@@ -482,30 +317,7 @@
         "pg.html"
       ]
     },
-    "pages/help-faqs.vue": {
-      "frameworks": [
-        "@nuxt/content",
-        "pg.insight.events",
-        "@nuxt/image",
-        "pg.vue.tree.painter",
-        "@vue/devtools",
-        "@nuxt/devtools",
-        "pg.css.grid",
-        "@unocss/preset-icons",
-        "pg.image.overlay",
-        "@pinegrow/nuxt-module",
-        "project",
-        "pg.code-validator",
-        "nuxt",
-        "pg.project.items",
-        "vue",
-        "pg.asset.manager",
-        "app_designer",
-        "@nuxt/ui",
-        "tw",
-        "pg.html"
-      ]
-    },
+
     "components/StoreHeader.vue": {
       "frameworks": [
         "@nuxt/content",
@@ -555,79 +367,7 @@
         "pg.html"
       ]
     },
-    "pages/order-history.vue": {
-      "frameworks": [
-        "pg.tw.lib",
-        "@nuxt/image",
-        "@vue/devtools",
-        "@nuxt/devtools",
-        "@unocss/preset-icons",
-        "@pinegrow/nuxt-module",
-        "nuxt",
-        "vue",
-        "app_designer",
-        "project",
-        "pg.insight.events",
-        "pg.vue.tree.painter",
-        "pg.css.grid",
-        "pg.image.overlay",
-        "pg.code-validator",
-        "pg.project.items",
-        "pg.asset.manager",
-        "@nuxt/ui",
-        "tw",
-        "pg.html"
-      ]
-    },
-    "app/pages/track-order.vue": {
-      "frameworks": [
-        "@nuxt/image",
-        "@nuxt/ui",
-        "pg.insight.events",
-        "pg.vue.tree.painter",
-        "@vue/devtools",
-        "@nuxt/devtools",
-        "pg.css.grid",
-        "@pinegrow/nuxt-module",
-        "@unocss/preset-icons",
-        "nuxt",
-        "pg.image.overlay",
-        "pg.code-validator",
-        "pg.project.items",
-        "project",
-        "vue",
-        "pg.asset.manager",
-        "app_designer",
-        "tw.flowbite",
-        "pg.html"
-      ]
-    },
-    "app/components/HeroSection.vue": {
-      "frameworks": [
-        "@nuxt/icon",
-        "pg.insight.events",
-        "@nuxt/image",
-        "pg.vue.tree.painter",
-        "pg.css.grid",
-        "pg.image.overlay",
-        "pg.code-validator",
-        "pg.project.items",
-        "pg.asset.manager",
-        "app_designer",
-        "@vue/devtools",
-        "project",
-        "nuxt",
-        "@pinegrow/nuxt-module",
-        "vue",
-        "@nuxt/devtools",
-        "@unocss/preset-icons",
-        "tw.flowbite",
-        "@nuxt/ui",
-        "tw",
-        "pg.html",
-        "pine.cone.lib"
-      ]
-    },
+
     "app-nuxtui-layer/components/TheLogo.vue": {
       "frameworks": [
         "@nuxt/image",
@@ -678,56 +418,7 @@
         "pg.html"
       ]
     },
-    "app/components/DarkModeSwitch.vue": {
-      "frameworks": [
-        "@nuxt/image",
-        "@nuxt/icon",
-        "@vue/devtools",
-        "@nuxt/devtools",
-        "@unocss/preset-icons",
-        "@pinegrow/nuxt-module",
-        "nuxt",
-        "vue",
-        "app_designer",
-        "project",
-        "pg.insight.events",
-        "pg.vue.tree.painter",
-        "pg.css.grid",
-        "pg.image.overlay",
-        "pg.code-validator",
-        "pg.project.items",
-        "pg.asset.manager",
-        "@nuxt/ui",
-        "tw.flowbite",
-        "tw",
-        "pg.html"
-      ]
-    },
-    "app/components/HotDeals.vue": {
-      "frameworks": [
-        "@nuxt/image",
-        "@nuxt/icon",
-        "@vue/devtools",
-        "@nuxt/devtools",
-        "@unocss/preset-icons",
-        "@pinegrow/nuxt-module",
-        "nuxt",
-        "vue",
-        "app_designer",
-        "project",
-        "pg.insight.events",
-        "pg.vue.tree.painter",
-        "pg.css.grid",
-        "pg.image.overlay",
-        "pg.code-validator",
-        "pg.project.items",
-        "pg.asset.manager",
-        "@nuxt/ui",
-        "tw.flowbite",
-        "tw",
-        "pg.html"
-      ]
-    },
+
     "app-nuxtui-layer/components/nav/NavBar.vue": {
       "frameworks": [
         "@nuxt/image",
@@ -754,7 +445,7 @@
     }
   },
   "template_framework_id": "vue",
-  "open-pages": ["app/components/HeroSection.vue"],
+
   "breakpoints": ["640px", "768px", "1024px", "1280px", "1536px"],
   "frameworks": [
     "@nuxt/icon",
@@ -782,12 +473,8 @@
   ],
   "urls": {
     "pages/index.vue": { "open-page-views": [{ "w": 1024, "h": 0 }] },
-    "components/DarkModeSwitch.vue": {
-      "open-page-views": [{ "w": 1024, "h": 0 }]
-    },
     "layouts/default.vue": { "open-page-views": [{ "w": 1024, "h": 0 }] },
     "components/NavBar.vue": { "open-page-views": [{ "w": 1024, "h": 0 }] },
-    "pages/%5Bcategory%5D.vue": { "open-page-views": [{ "w": 1024, "h": 0 }] },
     "components/UDropdownItem.vue": {
       "open-page-views": [{ "w": 1024, "h": 0 }]
     },
@@ -798,26 +485,13 @@
     "components/TheHamburger.vue": {
       "open-page-views": [{ "w": 1024, "h": 0 }]
     },
-    "components/ProductCard.vue": {
-      "open-page-views": [{ "w": 1024, "h": 0 }]
-    },
     "components/TheLogo.vue": { "open-page-views": [{ "w": 1024, "h": 0 }] },
     "app.vue": { "open-page-views": [{ "w": 1024, "h": 0 }] },
-    "pages/store/%5Bid%5D.vue": { "open-page-views": [{ "w": 1024, "h": 0 }] },
-    "components/HeroSection.vue": { "open-page-views": [{ "w": 768, "h": 0 }] },
     "components/LaunchSale.vue": { "open-page-views": [{ "w": 1024, "h": 0 }] },
-    "components/HotDeals.vue": { "open-page-views": [{ "w": 1024, "h": 0 }] },
     "components/TheFooter.vue": { "open-page-views": [{ "w": 1024, "h": 0 }] },
     "components/AboutTemplate.vue": {
       "open-page-views": [{ "w": 1024, "h": 0 }]
     },
-    "pages/quick-start/%5B...slug%5D.vue": {
-      "open-page-views": [{ "w": 1024, "h": 0 }]
-    },
-    "components/WalkThrough.vue": {
-      "open-page-views": [{ "w": 1024, "h": 0 }]
-    },
-    "pages/help-faqs.vue": { "open-page-views": [{ "w": 1024, "h": 0 }] },
     "components/StoreHeader.vue": {
       "open-page-views": [{ "w": 1024, "h": 0 }]
     },
@@ -827,23 +501,13 @@
     "components/OgImage/ThePage.vue": {
       "open-page-views": [{ "w": 1024, "h": 0 }]
     },
-    "pages/order-history.vue": { "open-page-views": [{ "w": 1024, "h": 0 }] },
-    "app/pages/track-order.vue": { "open-page-views": [{ "w": 1024, "h": 0 }] },
-    "app/components/HeroSection.vue": {
-      "open-page-views": [{ "w": 934, "h": 0 }]
-    },
     "app-nuxtui-layer/components/TheLogo.vue": {
       "open-page-views": [{ "w": 1024, "h": 0 }]
     },
     "app-nuxtui-layer/components/ProfileActions.vue": {
       "open-page-views": [{ "w": 1024, "h": 0 }]
     },
-    "app/components/DarkModeSwitch.vue": {
-      "open-page-views": [{ "w": 1024, "h": 0 }]
-    },
-    "app/components/HotDeals.vue": {
-      "open-page-views": [{ "w": 1024, "h": 0 }]
-    },
+
     "app-nuxtui-layer/components/nav/NavBar.vue": {
       "open-page-views": [{ "w": 1024, "h": 0 }]
     }
